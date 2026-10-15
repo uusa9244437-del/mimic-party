@@ -1,0 +1,20 @@
+{
+  "name": "mimicparty-mvp",
+  "version": "0.2.0",
+  "private": true,
+  "description": "Moroccan Arabic audio-imitation party game MVP with WebRTC room voice chat and synchronized recording playback.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "multer": "^2.0.2",
+    "socket.io": "^4.8.1"
+  }
+}
